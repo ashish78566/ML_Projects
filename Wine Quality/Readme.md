@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/ashish78566/ML_Projects/blob/main/Wine%20Quality/wine%20images.jpeg" alt="Wine Image" width="250">
+</p>
 # 🍷 Wine Quality Prediction – Machine Learning Project
 
 This project focuses on building a machine learning model to **predict the quality of wine** based on its chemical properties. The notebook includes data preprocessing, EDA, feature engineering, model training, and evaluation using multiple ML algorithms.
