@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/ashish78566/ML_Projects/blob/main/IPL%20Score/ipl-logo.png" alt="IPL Logo" width="180">
+</p>
+
 # 🏏 IPL Score Prediction – Machine Learning Project
 
 This project focuses on building a machine learning model to **predict the final innings score** of an IPL team based on overs, wickets, run rate, player performance factors, and match situation. The notebook includes full data preprocessing, EDA, feature engineering, model training, and evaluation.
@@ -88,13 +92,6 @@ Example output:Predicted Final Score: 178 runs
 ## 📁 Project Structure
 ├── IPL Score Prediction.ipynb # Main ML Notebook
 ├── dataset.csv # Input data file (if included)
+├── ipl-logo.png # IPL Logo
 ├── README.md # Project documentation
-
-💡 Key Insights
-Early overs strongly impact final score
-Wickets lost significantly influence scoring momentum
-Runs in last 5 overs are strong predictors
-Ensemble models outperform linear models
-
-
 
