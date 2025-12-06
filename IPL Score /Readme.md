@@ -70,5 +70,30 @@ Final model is selected based on:
 
 ## 📈 Output (Model Predictions)
 The model predicts the **final IPL score** given current match state variables.  
-Example output:
+Example output:Predicted Final Score: 178 runs
+
+
+---
+
+## 🧪 Technologies Used
+- Python  
+- Pandas / NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- XGBoost  
+- Jupyter Notebook  
+
+---
+
+## 📁 Project Structure
+├── IPL Score Prediction.ipynb # Main ML Notebook
+├── dataset.csv # Input data file (if included)
+├── README.md # Project documentation
+
+💡 Key Insights
+Early overs strongly impact final score
+Wickets lost significantly influence scoring momentum
+Runs in last 5 overs are strong predictors
+Ensemble models outperform linear models
+
 
