@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/ashish78566/ML_Projects/blob/main/Gold%20Price/gold%20image.jpg" alt="Gold Image" width="230">
+</p>
+
 # Gold Price Prediction – Machine Learning Project
 
 This project focuses on building a machine learning model to predict **future gold prices** using historical financial market data. The notebook includes preprocessing, feature scaling, time-series analysis, model training, and evaluation.
@@ -29,41 +33,41 @@ These indicators help identify trends and patterns affecting gold price movement
 ### 1. Data Preprocessing
 - Load dataset  
 - Handle missing values  
-- Convert date column & set time-index  
+- Convert date column & set time index  
 - Create lag features for prediction  
 - Train–test split  
 
 ### 2. Exploratory Data Analysis
-- Line plots for trends  
+- Time-series plots for trend  
 - Correlation heatmap  
-- Distribution of price values  
-- Detecting volatility & seasonality  
+- Seasonal trend visualization  
+- Detecting volatility  
 
 ### 3. Feature Engineering
-- Lag-based features  
-- Rolling mean / moving average  
-- Normalization using Min-Max scaling  
+- Lag/shift features  
+- Rolling averages  
+- Min–Max scaling  
 
 ### 4. Model Training
-Models used in the notebook include:
+Models used in this notebook include:
 
 - Linear Regression  
 - Random Forest Regressor  
 - XGBoost Regressor  
-- LSTM (if applied)  
+- LSTM *(if applied)*  
 
 Evaluation metrics:
 
 - R² Score  
-- Mean Absolute Error  
-- Root Mean Squared Error  
+- Mean Absolute Error (MAE)  
+- RMSE  
 
 ### 5. Model Evaluation
-Final model chosen based on:
+Final model is selected based on:
 
-- Best R² score  
+- Highest R² value  
 - Lowest prediction error  
-- Stable behavior across validation set  
+- Generalization on unseen test data  
 
 ---
 
